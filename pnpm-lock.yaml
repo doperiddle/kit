@@ -13,7 +13,7 @@ importers:
       eslint: ^8.33.0
       eslint-plugin-unicorn: ^46.0.0
       playwright: ^1.29.2
-      prettier: ^2.8.0
+      prettier: ^3.8.1
       rollup: ^3.7.0
       svelte: ^3.56.0
       tiny-glob: ^0.2.9
@@ -28,7 +28,7 @@ importers:
       eslint: 8.33.0
       eslint-plugin-unicorn: 46.0.0_eslint@8.33.0
       playwright: 1.29.2
-      prettier: 2.8.0
+      prettier: 3.8.1
       rollup: 3.7.0
       svelte: 3.56.0
       tiny-glob: 0.2.9
@@ -4269,6 +4269,12 @@ packages:
   /prettier/2.8.0:
     resolution: {integrity: sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==}
     engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
+  /prettier/3.8.1:
+    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
