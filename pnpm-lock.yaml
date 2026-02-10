@@ -12,7 +12,7 @@ importers:
       '@typescript-eslint/eslint-plugin': ^5.53.0
       eslint: ^8.33.0
       eslint-plugin-unicorn: ^46.0.0
-      playwright: ^1.29.2
+      playwright: ^1.58.2
       prettier: ^2.8.0
       rollup: ^3.7.0
       svelte: ^3.56.0
@@ -27,7 +27,7 @@ importers:
       '@typescript-eslint/eslint-plugin': 5.53.0_zkdaqh7it7uc4cvz2haft7rc6u
       eslint: 8.33.0
       eslint-plugin-unicorn: 46.0.0_eslint@8.33.0
-      playwright: 1.29.2
+      playwright: 1.58.2
       prettier: 2.8.0
       rollup: 3.7.0
       svelte: 3.56.0
@@ -4192,13 +4192,20 @@ packages:
     hasBin: true
     dev: true
 
-  /playwright/1.29.2:
-    resolution: {integrity: sha512-hKBYJUtdmYzcjdhYDkP9WGtORwwZBBKAW8+Lz7sr0ZMxtJr04ASXVzH5eBWtDkdb0c3LLFsehfPBTRfvlfKJOA==}
-    engines: {node: '>=14'}
+  /playwright-core/1.58.2:
+    resolution: {integrity: sha512-yZkEtftgwS8CsfYo7nm0KE8jsvm6i/PTgVtB8DL726wNf6H2IMsDuxCpJj59KDaxCtSnrWan2AeDqM7JBaultg==}
+    engines: {node: '>=18'}
     hasBin: true
-    requiresBuild: true
+    dev: true
+
+  /playwright/1.58.2:
+    resolution: {integrity: sha512-vA30H8Nvkq/cPBnNw4Q8TWz1EJyqgpuinBcHET0YVJVFldr8JDNiU9LaWAE1KqSkRYazuaBhTpB5ZzShOezQ6A==}
+    engines: {node: '>=18'}
+    hasBin: true
     dependencies:
-      playwright-core: 1.29.2
+      playwright-core: 1.58.2
+    optionalDependencies:
+      fsevents: 2.3.2
     dev: true
 
   /pluralize/8.0.0:
